@@ -1,0 +1,151 @@
+#container {
+    width: 960px;
+    background: #FFF;
+    margin: 0 auto;}
+#nav { width: 280px; float: right; }
+#content { width: 700px; float: left; }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+    color: #20B2AA;}
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.couriernew {
+    font-family: Courier, monospace;
+}
+.center {
+    text-align: center;
+}
+li a {
+    display: block;
+    color: #20B2AA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#intro {
+    float: left;
+    color: #20B2AA;
+    font-size: large;
+    padding-left: 10%;
+    padding-top: 8%;
+    letter-spacing: 2px;
+}
+#aedas {
+    font-size: medium;
+}
+#bw_photo {
+    float: right;
+    padding-right: 10%;
+    padding-top: 5%;
+    object-fit: cover;
+}
+#footer {
+    clear: both;
+    padding-top: 5%;
+    text-align: center;
+    color: #20B2AA;
+    font-size: medium;
+    font-style: normal;
+    letter-spacing: 2px
+}
+#color_photo {
+    clear: both;
+    padding-top: 5%;
+    object-fit: cover;
+    text-align: center;
+}
+#my_story {
+    justify-content: center;
+    column-width: 500px;
+    color: #20B2AA;
+    font-size: medium;
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-left: 25%;
+    letter-spacing: 2px;
+    column-fill: balance;
+}
+#back_to_home {
+    clear: both;
+    text-align: center;
+    color: #20B2AA;
+    font-size: medium;
+    padding-top: 5%;
+    letter-spacing: 2px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+#projects {
+    text-align: center;
+    padding: 0;
+}
+#creative_projects {
+    text-align: center;
+    padding: 2%;
+    color: #20B2AA;
+    font-size: large;
+    letter-spacing: 2px;
+}
+#h1 {
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#table {
+    text-align: left;
+    column-width: 500px;
+    color: #20B2AA;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+#reading_list {
+    float: left;
+    color: #20B2AA;
+    font-size: medium;
+    padding-left: 10%;
+    letter-spacing: 2px;
+}
+th, td {
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#photography {
+    float: right;
+    padding-top: 7%;
+    padding-right: 7%;
+    object-fit: cover;
+    color: #20B2AA;
+    font-size: medium;
+}
+
+
