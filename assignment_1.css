@@ -135,10 +135,10 @@ input[type=text], select, textarea {
 th, td {
     padding: 5px;
 }
-table, th, td {
+/*table, th, td {
     border: 1px solid;
     border-collapse: collapse;
-}
+}*/
 #photography {
     float: right;
     padding-top: 7%;
